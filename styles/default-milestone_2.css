@@ -1,0 +1,25 @@
+ body {
+        background-color:#FFBF00;
+		text-align:center;
+      }
+	  #header{
+	  border:solid;
+	  border-width:10px;
+	  border-color:yellow;
+	  font-color:red;
+	  
+	  }
+	  #ul{
+	  font-color:red;
+	  text-align:center;
+	  }
+	  footer{
+	  border:solid;
+	  border-color:yellow;
+	  border-width:10px;
+	  
+	  }
+	    a {
+  background-color: yellow;
+} 
+.tab { text-indent:40px }

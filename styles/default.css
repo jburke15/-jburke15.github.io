@@ -1,0 +1,38 @@
+body {
+	background-color: rgb(237,135,45);
+	font-family: Arial, Helvetica, sans-serif;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+  
+h1,h2{
+ font-family: Courier;
+ text-align: center;
+ border:solid;
+text-align:center;
+border-color:red;
+border-width:thick;
+ border-style: groove;
+ border-width:5px;
+}
+p{
+color:rgb(68,215,168);
+}
+	
+a{
+  text-decoration:none;
+  color:red;
+  
+}
+a:hover{
+	color:brown;
+}
+
+footer {
+text-align: center;
+font-size:200%;
+}
+
+ul{
+color:rgb(68,215,168);
+}
