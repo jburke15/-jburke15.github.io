@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jburk"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-08 11:21:07 AM"/>
+        <attribute name="created" value="amJ1cms7TEFQVE9QLURCMTlJR0k0OzIwMjItMDItMDg7MTA6NDM6MjcgQU07MjgyMg=="/>
+        <attribute name="edited" value="amJ1cms7TEFQVE9QLURCMTlJR0k0OzIwMjItMDItMDg7MTE6MjE6MDcgQU07MjsyOTI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <declare name="ChildrenHosptial" type="Real" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="donation" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="0"/>
+            <output expression="&quot;Enter number of donations&quot;" newline="True"/>
+            <input variable="n"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <output expression="&quot;Enter the donation - &quot;&amp;i" newline="True"/>
+                <input variable="donation"/>
+                <assign variable="sum" expression="sum+donation"/>
+            </for>
+            <assign variable="ChildrenHosptial" expression="sum*0.06"/>
+            <output expression="&quot;Total donations are: $&quot;&amp;sum" newline="True"/>
+            <output expression="&quot;ChildrenHosptial will receive $&quot;&amp;ChildrenHosptial" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

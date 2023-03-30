@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jburk"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-02-08 10:02:55 PM"/>
+        <attribute name="created" value="amJ1cms7TEFQVE9QLURCMTlJR0k0OzIwMjEtMDItMDg7MDc6NTc6MzcgUE07Mjg0OA=="/>
+        <attribute name="edited" value="amJ1cms7TEFQVE9QLURCMTlJR0k0OzIwMjEtMDItMDg7MTA6MDI6NTUgUE07MjsyOTQx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="HowMuchIsWeedEating" type="String" array="False" size=""/>
+            <assign variable="HowMuchisWeedEating" expression="&quot;How&amp;much&amp;is&amp;weed&amp;eating?&quot;"/>
+            <input variable="HowMuchIsWeedEating"/>
+            <output expression="25" newline="True"/>
+            <declare name="HowMuchIsEdgeing" type="String" array="False" size=""/>
+            <assign variable="HowMuchisEdgeing" expression="&quot;How&amp;much&amp;is&amp;edgeing?&quot;"/>
+            <input variable="HowMuchisEdgeing"/>
+            <output expression="40" newline="True"/>
+            <declare name="HowMuchisHedgeing" type="String" array="False" size=""/>
+            <assign variable="HowMuchisHedgeing" expression="&quot;How&amp;much&amp;is&amp;hedgeing?&quot;"/>
+            <input variable="HowMuchisHedgeing"/>
+            <output expression="50" newline="True"/>
+            <declare name="HowMuchisWinterCleanUp" type="String" array="False" size=""/>
+            <assign variable="HowMuchisWinterCleanUp" expression="&quot;How&amp;much&amp;is&amp;winter&amp;clean&amp;up?&quot;"/>
+            <input variable="HowMuchisWinterCleanUp"/>
+            <output expression="75" newline="True"/>
+            <declare name="HowMuchisALawnmower" type="String" array="False" size=""/>
+            <assign variable="HowMuchisALawnmower" expression="&quot;How&amp;much&amp;is&amp;a&amp;lawnmower?&quot;"/>
+            <input variable="HowMuchisALawnmower"/>
+            <output expression="100" newline="True"/>
+            <declare name="AfterTax" type="String" array="False" size=""/>
+            <assign variable="AfterTax" expression="&quot;Total&amp;price&amp;after&amp;tax?&quot;"/>
+            <input variable="AfterTax"/>
+            <output expression="290+17.4" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

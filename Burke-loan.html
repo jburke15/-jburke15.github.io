@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to make a loan decision based on the following conditions:</p>
+
+<button onclick="loanDecision()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function loanDecision() {
+  // Input variables
+  var income = prompt("What is the applicant's income range? (35-75k or >75k)");
+  var debtIncomeRatio = prompt("What is the applicant's debt-income ratio? (>50% or 50%)");
+  var yearsInJob = prompt("How many total years has the applicant been in their current job?");
+  var criminalRecord = prompt("Does the applicant have a criminal record? (yes or no)");
+
+  // Initialize decision variable
+  var decision = "";
+
+  // Conditional statements to make loan decision
+  if (income === "35-75k" && debtIncomeRatio === "50%" && yearsInJob >= 2 && criminalRecord === "no") {
+    decision = "Loan";
+  } else {
+    decision = "No Loan";
+  }
+
+  // Output decision
+  document.getElementById("demo").innerHTML = "Loan Decision: " + decision;
+}
+</script>
+
+</body>
+</html> 
